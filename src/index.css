@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  /* .gradient-bg {
+    background: radial-gradient(circle, rgba(255,0,0,0.7) 0%, rgba(255,255,255,0) 30%);
+    background-position: 60%;
+} */
+
+.grainy {
+    --dot-bg: #f1f1ea;
+    --dot-color: #313131;
+    --dot-size: 1px;
+    --dot-space: 3px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+  }
+
+.gradient-bg {
+    background: radial-gradient(circle, rgba(255,0,0,0.8) 0%, rgba(255,255,255,0) 30%, rgba(243,153,76,0) 30%);
+    left: 300px;
+    background-size: cover;
+  }
+
+  /* @keyframes rotate1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(150deg);
+    }
+    100% {
+      transform: rotate(510deg);
+    }
+  }
+  
+  .rotate1 {
+    animation: rotate1 4s linear infinite;
+    transform-origin: 110px 60px;
+  }
+  
+  .rotate2 {
+    animation: rotate2 6s linear infinite;
+    transform-origin: 110px 60px;
+  } */
+
+  /* @keyframes rotate1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  .rotate1 {
+    animation: rotate1 10s linear infinite;
+    transform-origin: 110px 60px;
+  }
+  
+  .rotate2 {
+    animation: rotate2 10s linear infinite;
+    transform-origin: 110px 60px;
+  } */
+
+  @keyframes wobble1 {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(15deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    45% {
+      transform: rotate(5deg);
+    }
+    60% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(10deg);
+    }
+    90% {
+      transform: rotate(-15deg);
+    }
+  }
+  
+  @keyframes wobble2 {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(-15deg);
+    }
+    30% {
+      transform: rotate(10deg);
+    }
+    45% {
+      transform: rotate(-5deg);
+    }
+    60% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    90% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  .wobble1 {
+    animation: wobble1 4s ease-in-out infinite;
+    transform-origin: 110px 60px;
+  }
+  
+  .wobble2 {
+    animation: wobble2 6s ease-in-out infinite;
+    transform-origin: 110px 60px;
+  }
