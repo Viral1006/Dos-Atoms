@@ -9,7 +9,7 @@
 
 .grainy {
     --dot-bg: #f1f1ea;
-    --dot-color: #313131;
+    --dot-color: #a0a0a0;
     --dot-size: 1px;
     --dot-space: 3px;
       background:
@@ -23,62 +23,6 @@
     left: 300px;
     background-size: cover;
   }
-
-  /* @keyframes rotate1 {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes rotate2 {
-    0% {
-      transform: rotate(150deg);
-    }
-    100% {
-      transform: rotate(510deg);
-    }
-  }
-  
-  .rotate1 {
-    animation: rotate1 4s linear infinite;
-    transform-origin: 110px 60px;
-  }
-  
-  .rotate2 {
-    animation: rotate2 6s linear infinite;
-    transform-origin: 110px 60px;
-  } */
-
-  /* @keyframes rotate1 {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes rotate2 {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  
-  .rotate1 {
-    animation: rotate1 10s linear infinite;
-    transform-origin: 110px 60px;
-  }
-  
-  .rotate2 {
-    animation: rotate2 10s linear infinite;
-    transform-origin: 110px 60px;
-  } */
 
   @keyframes wobble1 {
     0%, 100% {
@@ -137,3 +81,43 @@
     animation: wobble2 6s ease-in-out infinite;
     transform-origin: 110px 60px;
   }
+ 
+
+  /* .carousel-container {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+   */
+
+/* File path: src/components/Whatwedo.css */
+
+/* .carousel-container {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-container:hover .PolaroidCard {
+  animation-play-state: paused;
+}
+
+.PolaroidCard:hover {
+  transform: scale(1.1);
+} */

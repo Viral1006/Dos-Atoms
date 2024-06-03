@@ -3,7 +3,7 @@ import ArrowRight from 'D:/corporate-web/src/assets/ArrowRight.svg';
 
 const Navbar = () => {
   return (
-    <div className="relative h-[37px] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
+    <div className="relative h-[33px] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
         <div className="relative"> 
         <div className='absolute top-2 left-[64px] w-4 h-4 bg-[#515151] rounded-full'></div>
         <div className='absolute top-2 left-[40px] w-4 h-4 bg-[#101110] rounded-full'></div>

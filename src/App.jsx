@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import {motion} from 'framer-motion';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import './fonts.css';
+import Whatwedo from './components/Whatwedo';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({
@@ -67,8 +69,13 @@ function App() {
         animate = {cursorVariant}
         />
         <Navbar />
-        <Home />
+        {/* <Routes>
+         <Route path="/" element={<Home/>} />
+         <Route path="/" element={<About/>} />
+        </Routes> */}
+        {/* <Home /> */}
         <About />
+        {/* <Whatwedo/> */}
       </div>
     </>
   )
