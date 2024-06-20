@@ -40,7 +40,7 @@ const About = () => {
         </p>
       </div>
       <div className="absolute mt-48 right-0 w-[40%] h-40">
-        <img src='src\assets\lofi.gif' alt="Team Meeting" className="w-full h-[45vh]" />
+        <img src='/lofi.gif' alt="Team Meeting" className="w-full h-[45vh]" />
       </div>
 
 <div className="relative flex justify-between p-8 -bottom-3 h-full">

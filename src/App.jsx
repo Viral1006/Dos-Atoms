@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import './fonts.css';
 import Whatwedo from './components/Whatwedo';
+import Ourteam from './components/Ourteam';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({
@@ -73,9 +74,10 @@ function App() {
          <Route path="/" element={<Home/>} />
          <Route path="/" element={<About/>} />
         </Routes> */}
-        {/* <Home /> */}
+        {/* <Home />
         <About />
-        {/* <Whatwedo/> */}
+        <Whatwedo/> */}
+        <Ourteam/>
       </div>
     </>
   )
