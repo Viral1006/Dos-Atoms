@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import PolaroidCard from './PolaroidCard';
-import './Whatwedo.css'; // Import the CSS file for the animation styles
+import './Whatwedo.css';
+import { Link } from 'react-router-dom';
 
 const cardsData = [
   { image: '/7.jpeg', caption: 'Project 1' },
@@ -63,9 +64,9 @@ const Whatwedo = () => {
         </div>
       </div>
       
-      <div className="absolute -bottom-10 left-0 w-full p-8 flex justify-between">
+      <div className="absolute -bottom-4 left-0 w-full p-8 flex justify-between">
         <div className="flex flex-col items-start space-y-8">
-          <button className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
+          <Link to="/about" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
             <svg
               width="120"
               height="48"
@@ -81,11 +82,11 @@ const Whatwedo = () => {
               <polyline points="90 18 100 24 90 30"></polyline>
             </svg>
             <span>WHO WE ARE</span>
-          </button>
+          </Link>
         </div>
   
         <div className="flex flex-col items-end space-y-8">
-          <button className="bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
+          <Link to="/ourteam" className="bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
             <span>OUR TEAM</span>
             <svg
               width="120"
@@ -101,7 +102,7 @@ const Whatwedo = () => {
               <line x1="1" y1="24" x2="100" y2="24"></line>
               <polyline points="90 18 100 24 90 30"></polyline>
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
       {/* <div className="who-we-are-shadow absolute inset-0"></div> */}

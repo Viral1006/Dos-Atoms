@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const translations = ['ml-2', '-ml-20', 'ml-24', '-ml-14', 'translate-x-4', '-translate-x-4'];
 
@@ -78,7 +79,7 @@ const Ourteam = () => {
 
     <div className="absolute -bottom-4 left-0 w-full p-8 flex justify-between">
         <div className="flex flex-col items-start space-y-8">
-          <button className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
+          <Link to="/whatwedo" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
             <svg
               width="120"
               height="48"
@@ -94,11 +95,11 @@ const Ourteam = () => {
               <polyline points="90 18 100 24 90 30"></polyline>
             </svg>
             <span>WHAT WE DO</span>
-          </button>
+          </Link>
         </div>
   
         <div className="flex flex-col items-end space-y-8">
-          <button className="bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
+          <Link to="/contactus" className="bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
             <span>CONTACT US</span>
             <svg
               width="120"
@@ -114,7 +115,7 @@ const Ourteam = () => {
               <line x1="1" y1="24" x2="100" y2="24"></line>
               <polyline points="90 18 100 24 90 30"></polyline>
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
       {/* <div className="who-we-are-shadow absolute inset-0"></div> */}

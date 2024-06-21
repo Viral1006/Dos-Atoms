@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contactus = () => {
   return (
@@ -22,7 +23,7 @@ const Contactus = () => {
                     id="fullname"
                     type="text"
                     placeholder="Full Name"
-                    className="w-full p-3 text-[#f1f1ea] text-[12px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
+                    className="w-full p-3 text-[#f1f1ea] text-[14px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
                     />
                 </div>
                 <div>
@@ -30,13 +31,13 @@ const Contactus = () => {
                     id="email"
                     type="email"
                     placeholder="Email"
-                    className="w-full p-3 text-[#f1f1ea] text-[12px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
+                    className="w-full p-3 text-[#f1f1ea] text-[14px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
                     />
                 </div>
                 <div>
                     <select
                     id="inquiry"
-                    className="w-full p-3 text-[#f1f1ea] text-[12px] bg-transparent border-b border-[#4f4f4f] focus:outline-none"
+                    className="w-full p-3 text-[#f1f1ea] text-[14px] bg-transparent border-b border-[#4f4f4f] focus:outline-none"
                     >
                     <option className="bg-black text-[#f1f1ea]">UI/UX</option>
                     <option className="bg-black text-[#f1f1ea]">Web Development</option>
@@ -88,7 +89,7 @@ const Contactus = () => {
 
 <div className="absolute -bottom-20 left-0 w-full p-8 flex justify-between items-end">
             <div className="flex flex-col items-start -ml-32 space-y-8">
-              <button className="bg-none text-[#f1f1ea] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
+              <Link to="/ourteam" className="bg-none text-[#f1f1ea] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
                 <svg
                   width="120"
                   height="48"
@@ -104,7 +105,7 @@ const Contactus = () => {
                   <polyline points="90 18 100 24 90 30"></polyline>
                 </svg>
                 <span>OUR TEAM</span>
-              </button>
+              </Link>
             </div>
 
             <div className="flex flex-col items-end space-y-8 text-right">
