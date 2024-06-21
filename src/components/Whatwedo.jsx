@@ -3,11 +3,11 @@ import PolaroidCard from './PolaroidCard';
 import './Whatwedo.css'; // Import the CSS file for the animation styles
 
 const cardsData = [
-  { image: '/7.jpeg', caption: 'Caption 1' },
-  { image: '/8.jpeg', caption: 'Caption 2' },
-  { image: '/9.jpeg', caption: 'Caption 3' },
-  { image: '/10.jpeg', caption: 'Caption 4' },
-  { image: '/11.jpeg', caption: 'Caption 5' },
+  { image: '/7.jpeg', caption: 'Project 1' },
+  { image: '/8.jpeg', caption: 'Project 2' },
+  { image: '/9.jpeg', caption: 'Project 3' },
+  { image: '/10.jpeg', caption: 'Project 4' },
+  { image: '/11.jpeg', caption: 'Project 5' },
   // { image: '/6.jpg', caption: 'Caption 6' },
   // { image: '/LATrees.jpg', caption: 'Caption 7' },
   // { image: 'src/assets/LATrees.jpg', caption: 'Caption 8' },

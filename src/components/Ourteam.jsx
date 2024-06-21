@@ -14,7 +14,7 @@ const Ourteam = () => {
               name: "MICHAEL WALKER",
               designation: "Project Manager",
               details: "Michael has been managing projects efficiently for over 10 years, ensuring timely delivery and client satisfaction.",
-              image: "/13.jpeg"
+              image: "/16.jpeg"
             },
             {
               name: "DIANA CAMPBELL",
@@ -32,7 +32,7 @@ const Ourteam = () => {
               name: "TERESA FULLER",
               designation: "Marketing Specialist",
               details: "Teresa is a marketing guru with innovative strategies that drive brand success.",
-              image: "/16.jpeg"
+              image: "/13.jpeg"
             }
 
     ];
@@ -43,13 +43,13 @@ const Ourteam = () => {
     <div className="relative h-[100vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden p-8">
 
       <div className="relative"> 
-        <div className='absolute top-32 right-[30rem] w-64 h-64 bg-[#e42f2f] mix-blend-multiply rounded-full filter blur-2xl opacity-70 animate-blob'></div>
-        <div className='absolute top-32 right-[18rem] w-64 h-64 bg-[#939393] mix-blend-multiply rounded-full filter blur-2xl  opacity-80 animate-blob'></div>
-        <div className='absolute top-48 right-[24rem] w-64 h-64 bg-[#f3994c] mix-blend-multiply rounded-full filter blur-2xl opacity-70 animate-blob' ></div>
+        <div className='absolute top-32 right-[30rem] w-64 h-64 bg-[#e42f2f] mix-blend-multiply rounded-full filter blur-2xl opacity-80 animate-blob'></div>
+        <div className='absolute top-32 right-[18rem] w-64 h-64 bg-[#f3994c] mix-blend-multiply rounded-full filter blur-2xl  opacity-80 animate-blob'></div>
+        <div className='absolute top-52 right-[24rem] w-64 h-64 bg-[#939393] mix-blend-multiply rounded-full filter blur-2xl opacity-90 animate-blob' ></div>
       </div>
 
       <div className="absolute top-2 left-8 w-full h-[200px] flex flex-col justify-center">
-        <h1 className="text-[100px] font-regular text-[#101110] leading-none">OUR TEAM</h1>
+        <h1 className="text-[120px] font-regular text-[#101110] leading-none">OUR TEAM</h1>
       </div>
     
       <div className="absolute top-40 my-4 left-32 grid grid-cols-1 ">
@@ -66,12 +66,12 @@ const Ourteam = () => {
       </div>
 
       {hoveredMember && (
-        <div className="absolute top-40 my-4 right-0 flex items-start space-x-8 p-4 w-[40%]">
-          <img src={hoveredMember.image} alt={hoveredMember.name} className='w-52 h-64 object-cover mb-4'/>
+        <div className="absolute top-20 my-4 right-0 flex items-start space-x-8 p-4 w-[40%]">
+          <img src={hoveredMember.image} alt={hoveredMember.name} className='w-60 h-72 object-cover mb-4'/>
           <div className="flex flex-col">
-            <div className="text-[#101110] text-[30px] font-bold">{hoveredMember.name}</div>
-            <div className="text-[#939393] text-[20px] font-medium mb-2">{hoveredMember.designation}</div>
-            <p className="text-[#70716D] text-[16px] leading-relaxed">{hoveredMember.details}</p>
+            <div className="text-[#101110] text-[30px] font-normal">{hoveredMember.name}</div>
+            <div className="text-[#939393] text-[20px] font-normal mb-2">{hoveredMember.designation}</div>
+            <p className="text-[#101110] text-[16px] font-normal leading-relaxed">{hoveredMember.details}</p>
           </div>
         </div>
       )}

@@ -115,7 +115,7 @@
 // File path: src/components/PolaroidCard.js
 
 import React from 'react';
-import rightarrowblack from 'D:/corporate-web/public/blackarrow.png';
+import rightarrowblack from '/blackarrow.png';
 
 const PolaroidCard = ({ image, caption, rotation }) => {
   return (

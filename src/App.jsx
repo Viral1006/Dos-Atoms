@@ -9,6 +9,7 @@ import About from './components/About'
 import './fonts.css';
 import Whatwedo from './components/Whatwedo';
 import Ourteam from './components/Ourteam';
+import Contactus from './components/Contactus';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({
@@ -76,8 +77,9 @@ function App() {
         </Routes> */}
         {/* <Home />
         <About />
-        <Whatwedo/> */}
-        <Ourteam/>
+        <Whatwedo/>
+        <Ourteam/> */}
+        <Contactus/>
       </div>
     </>
   )
