@@ -104,6 +104,7 @@ import HomeIntegrate from './components/HomeIntegrate';
 import AboutIntegrate from './components/AboutIntegrate';
 import WhatwedoIntegrate from './components/WhatwedoIntegrate';
 import OurteamIntegrate from './components/OurteamIntegrate';
+import ContactusIntegrate from './components/ContactusIntegrate';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({
@@ -163,7 +164,7 @@ function App() {
           <Route path="/about" element={<AboutIntegrate />} />
           <Route path="/whatwedo" element={<WhatwedoIntegrate />} />
           <Route path="/ourteam" element={<OurteamIntegrate />} />
-          <Route path="/contactus" element={<Contactus />} />
+          <Route path="/contactus" element={<ContactusIntegrate />} />
         </Routes>
       </div>
     </Router>

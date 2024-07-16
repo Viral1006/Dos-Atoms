@@ -96,8 +96,8 @@ const Navbar = () => {
         </button>
         <div className="ml-4 cursor-pointer z-50" onClick={() => setMenuOpen(!menuOpen)}>
           <div className="w-8 h-0.5 bg-[#101110] mb-1 transition-transform duration-300 ease-in-out" style={{ transform: menuOpen ? 'rotate(45deg) translate(5px, 5px)' : 'none' }}></div>
-          <div className="w-8 h-0.5 bg-[#101110] mb-1 transition-opacity duration-300 ease-in-out" style={{ opacity: menuOpen ? 0 : 1 }}></div>
-          <div className="w-8 h-0.5 bg-[#101110] transition-transform duration-300 ease-in-out" style={{ transform: menuOpen ? 'rotate(-45deg) translate(5px, -5px)' : 'none' }}></div>
+          {/* <div className="w-8 h-0.5 bg-[#101110] mb-1 transition-opacity duration-300 ease-in-out" style={{ opacity: menuOpen ? 0 : 1 }}></div> */}
+          <div className="w-8 h-0.5 bg-[#101110] transition-transform duration-300 ease-in-out" style={{ transform: menuOpen ? 'rotate(-60deg) translate(5px, -5px)' : 'none' }}></div>
         </div>
       </div>
       <div
