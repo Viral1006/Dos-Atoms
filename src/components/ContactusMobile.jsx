@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const ContactusMobile = () => {
   return (
-    <div className="relative h-[120vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
+    <div className="relative h-[125vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
       <div className="relative h-full w-full py-5 px-4 md:px-7">
-        <div className="relative h-[110vh] w-full rounded-2xl overflow-hidden">
-          <img src='/18.jpg' className='h-[110vh] w-full object-cover ' alt='Contact Background' />
+        <div className="relative h-[115vh] w-full rounded-2xl overflow-hidden">
+          <img src='/18.jpg' className='h-[115vh] w-full object-cover ' alt='Contact Background' />
           
           <div className="absolute top-8 left-4 md:left-8 w-full h-[120px] md:h-[200px] flex flex-col justify-center">
             <h1 className="text-[60px] md:text-[120px] font-regular text-[#f1f1ea] leading-none">CONTACT US.</h1>
@@ -82,30 +82,78 @@ const ContactusMobile = () => {
 
           
         </div>
-        <div className="absolute -bottom-4 left-4 md:left-0 w-full p-2 flex flex-col md:flex-row justify-between items-center">
+        {/* <div className="absolute -bottom-4 left-4 md:left-0 w-full p-2 flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-start space-y-4 mr-40 md:space-y-8">
               <Link to="/ourteam" className="bg-none text-[#101110] text-sm md:text-[14px] px-4 py-2 rounded-full flex items-center space-x-2">
-                <svg
-                  width="60"
-                  height="24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="feather feather-arrow-right transform rotate-180"
-                  viewBox="0 0 60 24"
-                >
-                  <line x1="1" y1="12" x2="45" y2="12"></line>
-                  <polyline points="38 5 45 12 38 19"></polyline>
-                </svg>
+              <svg
+              width="80"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-arrow-right transform rotate-180"
+              viewBox="0 0 80 24"
+            >
+              <line x1="1" y1="12" x2="50" y2="12"></line>
+              <polyline points="40 6 50 12 40 18"></polyline>
+            </svg>
                 <span>OUR TEAM</span>
               </Link>
             </div>
             <div className="flex flex-col items-end space-y-4 md:space-y-8 text-right">
               <span className="bg-none text-[#101110] text-sm md:text-[14px] ml-20 px-4 py-2 rounded-full">@VIRAL PARIKH 2024</span>
             </div>
+          </div> */}
+           {/* <div className="absolute bottom-0 left-0 w-full p-4 md:p-8 flex justify-between items-center">
+          <div className="flex flex-col items-start space-y-4 md:space-y-8">
+            <Link to="/ourteam" className="bg-none text-[#101110] text-sm md:text-[14px] px-4 py-2 rounded-full flex items-center space-x-2">
+              <svg
+                width="60"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-arrow-right transform rotate-180"
+                viewBox="0 0 60 24"
+              >
+                <line x1="1" y1="12" x2="40" y2="12"></line>
+                <polyline points="30 6 40 12 30 18"></polyline>
+              </svg>
+              <span>OUR TEAM</span>
+            </Link>
           </div>
+          <div className="flex flex-col items-end space-y-4 md:space-y-8 text-right">
+            <span className="bg-none text-[#101110] text-sm md:text-[14px] px-4 py-2 rounded-full">@VIRALPARIKH2024</span>
+          </div>
+        </div> */}
+        <div className="absolute -bottom-2 w-full p-4 md:p-8 flex justify-between items-center">
+          <div className="flex w-56 -ml-10 items-start">
+            <Link to="/ourteam" className="bg-none text-[#101110] text-sm md:text-[14px] px-4 py-2 rounded-full flex items-center space-x-2">
+              <svg
+                width="60"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-arrow-right transform rotate-180"
+                viewBox="0 0 60 24"
+              >
+                <line x1="1" y1="12" x2="40" y2="12"></line>
+                <polyline points="30 6 40 12 30 18"></polyline>
+              </svg>
+              <span>OUR TEAM</span>
+            </Link>
+          </div>
+          <div className="flex items-end text-right">
+            <span className="bg-none text-[#101110] text-sm md:text-[14px] px-4 py-2 rounded-full">@VIRALPARIKH 2024</span>
+          </div>
+        </div>
       </div>
     </div>
   )

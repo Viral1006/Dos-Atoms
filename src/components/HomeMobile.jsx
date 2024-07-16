@@ -31,7 +31,7 @@ const HomeMobile = () => {
           <p className="text-[#101110] font-normal">WE ARE THE LEADERS IN WEB & MOBILE<br /> DESIGN AND DEVELOPMENT INDUSTRY.</p>
         </div>
         <div className="relative flex flex-col items-end space-y-4 flex-grow mb-8">
-          <Link to="/about" className="bg-none text-[#101110] text-[14px] ml-36 px-3 py-3 rounded-full flex items-center space-x-2">
+          <Link to="/about" className="bg-none text-[#101110] text-[14px] ml-28 px-3 py-3 rounded-full flex items-center space-x-2">
             <span>WHO WE ARE</span>
             <svg width="60" height="24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right" viewBox="0 0 60 24">
               <line x1="1" y1="12" x2="45" y2="12"></line>

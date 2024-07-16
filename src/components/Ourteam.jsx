@@ -57,7 +57,7 @@ const Ourteam = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className={`text-[#70716D] -my-2 text-[70px] hover:text-[#101110] hover:scale-110 font-regular ${translations[index % translations.length]}`}
+            className={`text-[#70716D] -my-2 text-[70px] hover:text-[#101110] hover:scale-110 transition ease-in-out font-regular ${translations[index % translations.length]}`}
             onMouseEnter = {() => setHoveredMember(member) }
             onMouseLeave = {() => setHoveredMember(null)}
           >

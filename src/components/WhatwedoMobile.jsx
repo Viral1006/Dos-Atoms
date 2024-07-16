@@ -34,11 +34,11 @@ const WhatwedoMobile = () => {
 
   return (
     <div className="relative h-screen bg-[#f1f1ea] grainy overflow-hidden p-8">
-      <div className="absolute top-6 left-8 w-full flex flex-col justify-center">
-        <h1 className="text-[100px] font-regular text-[#101110] leading-none">WHAT WE DO</h1>
+      <div className="absolute top-8 left-8 w-full flex flex-col justify-center">
+        <h1 className="text-[65px] font-regular text-[#101110] leading-none">WHAT WE DO.</h1>
       </div>
       
-      <div className="flex justify-center items-center mt-64 relative overflow-hidden">
+      <div className="flex justify-center items-center mt-56 relative overflow-hidden">
         <div 
           className="carousel-container" 
           ref={carouselRef} 

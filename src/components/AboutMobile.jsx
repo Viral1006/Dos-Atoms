@@ -27,7 +27,7 @@ const AboutMobile = () => {
         communications.
       </p>
     </div>
-    <div className="w-full md:w-[55%] -mt-16 md:mt-0 md:pl-8">
+    <div className="w-full md:w-[55%] -mt-8 md:mt-0 md:pl-8">
       <p className="text-[14px] md:text-[16px] font-normal text-[#101110] leading-normal text-right">
         The company is based<br />
         out of London. Our agency<br />
@@ -56,7 +56,7 @@ const AboutMobile = () => {
         height="24"
         fill="none"
         stroke="currentColor"
-        strokeWidth="0.5"
+        strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
         className="feather feather-arrow-right transform rotate-180"
@@ -76,7 +76,7 @@ const AboutMobile = () => {
         height="24"
         fill="none"
         stroke="currentColor"
-        strokeWidth="0.5"
+        strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
         className="feather feather-arrow-right"
