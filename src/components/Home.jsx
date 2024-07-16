@@ -73,9 +73,23 @@ const Home = () => {
         <div className="relative flex flex-col justify-end items-end space-y-8 flex-grow">
           <Link to="/about" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
             <span>WHO WE ARE</span>
-            <svg width="60" height="24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right" viewBox="0 0 60 24">
+            {/* <svg width="60" height="24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right" viewBox="0 0 60 24">
               <line x1="1" y1="12" x2="45" y2="12"></line>
               <polyline points="38 5 45 12 38 19"></polyline>
+            </svg> */}
+            <svg
+              width="120"
+              height="48"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-arrow-right"
+              viewBox="0 0 120 48"
+            >
+              <line x1="1" y1="24" x2="100" y2="24"></line>
+              <polyline points="90 18 100 24 90 30"></polyline>
             </svg>
           </Link>
           <p className="text-[#101110] text-right font-normal">We create quality content and cool ideas. We create websites, applications,<br />3D design, motion design and animation. We bring the most daring ideas to life.</p>

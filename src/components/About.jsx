@@ -142,7 +142,7 @@ const About = () => {
       <div className="relative flex justify-between p-8 -bottom-3 h-full">
         <div className="relative flex flex-col justify-end items-start ml-10 space-y-8 flex-grow">
           <div className="relative">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            {/* <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <Link to="/" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
                 <svg
                   width="120"
@@ -160,7 +160,26 @@ const About = () => {
                 </svg>
                 <span>MAIN</span>
               </Link>
-            </div>
+            </div> */}
+            <div className="flex items-center -mb-9 -ml-20">
+    <Link to="/" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
+      <svg
+        width="120"
+        height="48"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="feather feather-arrow-right transform rotate-180"
+        viewBox="0 0 120 48"
+      >
+        <line x1="1" y1="24" x2="100" y2="24"></line>
+        <polyline points="90 18 100 24 90 30"></polyline>
+      </svg>
+      <span>MAIN</span>
+    </Link>
+  </div>
           </div>
         </div>
         <div className="relative flex flex-col justify-end items-end space-y-8 -mr-14 -mb-9 flex-grow">
