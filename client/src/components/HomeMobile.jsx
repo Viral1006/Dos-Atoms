@@ -10,10 +10,10 @@ const HomeMobile = () => {
         <div className='absolute top-48 right-[18rem] md:right-[12rem] sm:right-[6rem] w-64 h-64 bg-[#f3994c] mix-blend-multiply rounded-full filter blur-2xl opacity-70 animate-blob'></div>
       </div>
       <div className="relative flex flex-col justify-between p-8 mt-5 h-full">
-        <div className="relative flex-grow">
-          <h1 className="text-[65px] font-regular text-[#101110] leading-none">
+        <div className="relative flex-grow -ml-4">
+          <h1 className="text-[60px] font-regular text-[#101110] leading-none">
             WE CREATE<br />
-            <span className="text-[65px]">BEST DIGITAL<br />PRODUCTS.</span>
+            <span className="text-[60px]">BEST DIGITAL<br />PRODUCTS.</span>
           </h1>
         </div>
         <div className="relative flex flex-col items-start space-y-8 flex-grow mb-8">

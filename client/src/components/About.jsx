@@ -162,7 +162,7 @@ const About = () => {
               </Link>
             </div> */}
             <div className="flex items-center -mb-9 -ml-20">
-    <Link to="/" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
+    <Link to="/" className="glow-button1 bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
       <svg
         width="120"
         height="48"
@@ -171,7 +171,7 @@ const About = () => {
         strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="feather feather-arrow-right transform rotate-180"
+        className="glow-button feather feather-arrow-right transform rotate-180"
         viewBox="0 0 120 48"
       >
         <line x1="1" y1="24" x2="100" y2="24"></line>
@@ -183,7 +183,7 @@ const About = () => {
           </div>
         </div>
         <div className="relative flex flex-col justify-end items-end space-y-8 -mr-14 -mb-9 flex-grow">
-          <Link to="/whatwedo" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
+          <Link to="/whatwedo" className="glow-button1 bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
             <span>WHAT WE DO</span>
             <svg
               width="120"

@@ -79,7 +79,7 @@ const Ourteam = () => {
 
     <div className="absolute -bottom-4 left-0 w-full p-8 flex justify-between">
         <div className="flex flex-col items-start space-y-8">
-          <Link to="/whatwedo" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
+          <Link to="/whatwedo" className="glow-button1 bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2 whitespace-nowrap">
             <svg
               width="120"
               height="48"
@@ -99,7 +99,7 @@ const Ourteam = () => {
         </div>
   
         <div className="flex flex-col items-end space-y-8">
-          <Link to="/contactus" className="bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
+          <Link to="/contactus" className="glow-button1 bg-none text-[#101110] text-[14px] px-6 py-3  rounded-full flex items-center space-x-2">
             <span>CONTACT US</span>
             <svg
               width="120"

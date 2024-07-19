@@ -1,12 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios';
 
-const ContactusMobile = () => {
+function ContactusMobile(){
+  const[formData, setFormData] = useState({
+    fullname: '',
+    email: '',
+    inquiry: 'UI/UX',
+    customInquiry: '',
+  });
+
+  const handleChange = (e) => {
+    const {id, value} = e.target;
+    setFormData({...formData, [id]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try{
+      const response = await axios.post('http://localhost:5000/send', formData);
+      alert('Message sent succesfully');
+    }
+    catch (error){
+      alert('Failed to send a message');
+    }
+  };
+
   return (
-    <div className="relative h-[125vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
+    <div className="relative h-[130vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
       <div className="relative h-full w-full py-5 px-4 md:px-7">
-        <div className="relative h-[115vh] w-full rounded-2xl overflow-hidden">
-          <img src='/18.jpg' className='h-[115vh] w-full object-cover ' alt='Contact Background' />
+        <div className="relative h-[120vh] w-full rounded-2xl overflow-hidden">
+          <img src='/18.jpg' className='h-[120vh] w-full object-cover ' alt='Contact Background' />
           
           <div className="absolute top-8 left-4 md:left-8 w-full h-[120px] md:h-[200px] flex flex-col justify-center">
             <h1 className="text-[60px] md:text-[120px] font-regular text-[#f1f1ea] leading-none">CONTACT US.</h1>
@@ -21,6 +45,8 @@ const ContactusMobile = () => {
                     id="fullname"
                     type="text"
                     placeholder="Full Name"
+                    value={formData.fullname}
+                    onChange={handleChange}
                     className="w-full p-3 text-[#f1f1ea] text-sm md:text-[14px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
                   />
                 </div>
@@ -29,12 +55,16 @@ const ContactusMobile = () => {
                     id="email"
                     type="email"
                     placeholder="Email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full p-3 text-[#f1f1ea] text-sm md:text-[14px] bg-transparent border-b border-[#4f4f4f] placeholder-[#939393] focus:outline-none"
                   />
                 </div>
                 <div>
                   <select
                     id="inquiry"
+                    value={formData.inquiry}
+                    onChange={handleChange}
                     className="w-full p-3 text-[#f1f1ea] text-sm md:text-[14px] bg-transparent border-b border-[#4f4f4f] focus:outline-none"
                   >
                     <option className="bg-black text-[#f1f1ea]">UI/UX</option>
@@ -48,7 +78,7 @@ const ContactusMobile = () => {
                     <ellipse className='' cx="60" cy="30" rx="40" ry="20" stroke="#f1f1ea" fill="none" />
                   </svg>
                   <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <button className="pointer-events-auto text-[#F1F1EA] text-sm md:text-[14px] mt-16 px-4 py-2 rounded">
+                    <button  type="submit" onClick={handleSubmit} className="glow-button pointer-events-auto text-[#F1F1EA] text-sm md:text-[14px] mt-16 px-4 py-2 rounded">
                       SEND<br/> MESSAGE
                     </button>
                   </div>

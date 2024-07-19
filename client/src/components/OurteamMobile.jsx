@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-const translations = ['ml-4', '-ml-14', '-ml-1', '-ml-14', 'translate-x-4', '-translate-x-4'];
+const translations = ['ml-4', '-ml-14', '-ml-6', '-ml-14', 'translate-x-0', '-translate-x-4'];
 
 const OurteamMobile = () => {
     const teamMembers = [
@@ -42,7 +42,7 @@ const OurteamMobile = () => {
     const [selectedMember, setSelectedMember] = useState(null);
 
   return (
-    <div className="relative h-[115vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden p-8">
+    <div className="relative h-[120vh] bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden p-8">
 
       <div className="relative"> 
         <div className='absolute top-[32rem] right-[10rem] w-64 h-64 bg-[#e42f2f] mix-blend-multiply rounded-full filter blur-2xl opacity-60 animate-blob'></div>
@@ -51,7 +51,7 @@ const OurteamMobile = () => {
       </div>
 
       <div className="absolute mt-5 left-8 w-full h-[200px] flex flex-col justify-center">
-        <h1 className="text-[80px] font-regular text-[#101110] leading-none">OUR TEAM.</h1>
+        <h1 className="text-[70px] font-regular text-[#101110] leading-none">OUR TEAM.</h1>
       </div>
     
       <div className="absolute mt-60 my-8 w-96 left-20 grid grid-cols-1">

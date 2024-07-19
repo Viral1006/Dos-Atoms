@@ -11,7 +11,7 @@ const AboutMobile = () => {
       </div>
 
       <div className="relative mt-5 md:absolute md:top-6 left-4 w-full flex flex-col justify-center items-start">
-        <h1 className="text-[65px] md:text-[150px] font-regular text-[#101110] leading-none">WHO WE ARE</h1>
+        <h1 className="text-[65px] md:text-[150px] font-regular text-[#101110] leading-none">WHO WE ARE.</h1>
       </div>
 
 <div className="relative w-full mt-12 md:mt-56 px-4 md:px-8">

@@ -82,7 +82,41 @@
     transform-origin: 110px 60px;
   }
  
+.glow-button {
+    /* transition: color 0.3s ease, text-shadow 0.3s ease; */
+    transition: color 0.3s ease, text-shadow 0.3s ease, fill 0.3s ease, filter 0.3s ease;
+}
 
+.glow-button:hover {
+  color: #f1f1ea;
+  text-shadow: 0 0 10px #f1f1ea, 0 0 20px #f1f1ea, 0 0 30px #f1f1ea, 0 0 40px #f1f1ea;
+}
+
+.glow-button svg {
+  transition: filter 0.3s ease;
+}
+
+.glow-button:hover svg {
+  filter: drop-shadow(0 0 10px #f1f1ea) drop-shadow(0 0 20px #f1f1ea) drop-shadow(0 0 30px #f1f1ea) drop-shadow(0 0 40px #f1f1ea);
+}
+
+.glow-button1 {
+  /* transition: color 0.3s ease, text-shadow 0.3s ease; */
+  transition: color 0.3s ease, text-shadow 0.3s ease, fill 0.3s ease, filter 0.3s ease;
+}
+
+.glow-button1:hover {
+color: #101110;
+text-shadow: 0 0 20px #101110, 0 0 40px #101110, 0 0 60px #101110, 0 0 80px #101110;
+}
+
+.glow-button1 svg {
+transition: filter 0.3s ease;
+}
+
+.glow-button1:hover svg {
+filter: drop-shadow(0 0 10px #101110) drop-shadow(0 0 20px #101110) drop-shadow(0 0 30px #101110) drop-shadow(0 0 40px #101110);
+}
   /* .carousel-container {
     display: flex;
     animation: scroll 30s linear infinite;

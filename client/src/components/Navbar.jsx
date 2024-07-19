@@ -90,10 +90,10 @@ const Navbar = () => {
       </Link>
       <div className="absolute right-0 flex items-center pr-4">
         <button className="hidden mt-2 md:block bg-none text-base text-[#101110] px-2 py-1 mr-[100px]">EN</button>
-        <button className="hidden mt-2 md:flex bg-none text-base text-[#101110] mr-[100px] items-center">
+        <Link to="/contactus" className="hidden mt-2 md:flex bg-none text-base text-[#101110] mr-[100px] items-center">
           CONTACT US
           <img src={ArrowRight} alt="Arrow Right" width="20" height="16" className="ml-2 mb-1" />
-        </button>
+        </Link>
         <div className="ml-4 mt-2 cursor-pointer z-50" onClick={() => setMenuOpen(!menuOpen)}>
           <div className="w-8 h-0.5 bg-[#101110] mb-1 transition-transform duration-300 ease-in-out" style={{ transform: menuOpen ? 'rotate(45deg) translate(5px, 5px)' : 'none' }}></div>
           <div className="w-8 h-0.5 bg-[#101110] mb-1 transition-opacity duration-300 ease-in-out" style={{ opacity: menuOpen ? 0 : 1 }}></div>

@@ -34,8 +34,13 @@ const WhatwedoMobile = () => {
 
   return (
     <div className="relative h-screen bg-[#f1f1ea] grainy overflow-hidden p-8">
+      <div className="relative">
+        <div className='absolute top-36 right-[2rem] md:right-[16rem] sm:right-[8rem] w-64 h-64 bg-[#e42f2f] mix-blend-multiply rounded-full filter blur-2xl opacity-70 animate-blob'></div>
+        <div className='absolute top-28 right-[6rem] md:right-[8rem] sm:right-[4rem] w-64 h-64 bg-[#939393] mix-blend-multiply rounded-full filter blur-2xl opacity-80 animate-blob'></div>
+        <div className='absolute top-48 right-[10rem] md:right-[12rem] sm:right-[6rem] w-64 h-64 bg-[#f3994c] mix-blend-multiply rounded-full filter blur-2xl opacity-70 animate-blob'></div>
+      </div>
       <div className="absolute top-8 left-8 w-full flex flex-col justify-center">
-        <h1 className="text-[65px] font-regular text-[#101110] leading-none">WHAT WE DO.</h1>
+        <h1 className="text-[60px] font-regular text-[#101110] leading-none">WHAT WE DO.</h1>
       </div>
       
       <div className="flex justify-center items-center mt-56 relative overflow-hidden">
@@ -66,7 +71,7 @@ const WhatwedoMobile = () => {
 
       <div className="relative flex justify-between items-center p-4 md:p-8 h-full">
   <div className="flex items-center mb-[30rem] -ml-10">
-    <Link to="/whoweare" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
+    <Link to="/about" className="bg-none text-[#101110] text-[14px] px-6 py-3 rounded-full flex items-center space-x-2">
       <svg
         width="80"
         height="24"
