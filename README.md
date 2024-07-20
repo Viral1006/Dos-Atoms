@@ -11,10 +11,37 @@ This repository contains the source code for a corporate website developed using
 - **Axios**: A promise-based HTTP client for making API requests.
 - **Nodemailer**: A module for sending emails from Node.js applications.
 
+## Project Overview
+
+Meet our new concept of a design studio’s corporate website!
+
+- **First Screen**: Displays the company’s motto.
+- **Next Two Screens**: Display the company description and a list of its services.
+- **Another Screen**: Shows the list of team members and their responsibilities.
+- **Last Screen**: Displays the contact information.
+
+I've used neutral grey shades for the background and added blurry gradients as the main colorful accent. This simple color scheme doesn’t distract users from observing the company’s portfolio.
+
+The minimal design, large print, and colorful accents convey the company’s mission and emphasize its creativity. The simple navigation and clear information layout make the website pleasant to use.
+
+### Design Details
+
+- **Font Used**: PP Telegraf
+- **Color Scheme**:
+  - ![#101110](https://via.placeholder.com/15/101110/101110.png) `#101110`
+  - ![#e42f2f](https://via.placeholder.com/15/e42f2f/e42f2f.png) `#e42f2f`
+  - ![#f3994c](https://via.placeholder.com/15/f3994c/f3994c.png) `#f3994c`
+  - ![#f1f1ea](https://via.placeholder.com/15/f1f1ea/f1f1ea.png) `#f1f1ea`
+
+### Our Capabilities
+
+We create quality content and cool ideas. We create websites, applications, 3D design, motion design, and animation. We bring the most daring ideas to life.
+
+Explore the project [here](https://dos-atoms-1.onrender.com/) to understand it better.
+
 ## Project Structure
 
 The project is organized as follows:
-
 ## Getting Started
 
 ### Prerequisites
