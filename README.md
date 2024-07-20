@@ -79,10 +79,6 @@ Make sure you have the following installed on your local machine:
 
 1. Clone the repository:
 
-```
-git clone https://github.com/your-username/corporate-website.git
-cd corporate-website
-
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
@@ -154,6 +150,20 @@ cd corporate-website
 - Nodemailer
 - Express
 
+## Contributing
+
+Feel free to open issues or submit pull requests for any improvements.
+
+## License
+
+This project is licensed under the MIT License.
+This should now di
+
+```
+git clone https://github.com/your-username/corporate-website.git
+cd corporate-website
+
+
 
 Install dependencies:
 
@@ -194,14 +204,11 @@ Node.js: Documentation
 Express.js: Documentation
 Axios: Documentation
 Nodemailer: Documentation
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-## Contributing
-
-Feel free to open issues or submit pull requests for any improvements.
-
-## License
-
-This project is licensed under the MIT License.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Currently, two official plugins are available:
 
