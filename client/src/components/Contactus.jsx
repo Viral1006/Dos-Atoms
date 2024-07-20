@@ -18,7 +18,7 @@ function Contactus(){
   const handleSubmit = async (e) => {
     e.preventDefault();
     try{
-      const response = await axios.post('http://localhost:5000/send', formData);
+      const response = await axios.post('https://dos-atoms.onrender.com/send', formData);
       alert('Message sent succesfully');
     }
     catch (error){
