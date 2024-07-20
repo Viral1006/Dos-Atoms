@@ -83,6 +83,78 @@ Make sure you have the following installed on your local machine:
 git clone https://github.com/your-username/corporate-website.git
 cd corporate-website
 
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+
+    ```bash
+    cd frontend
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Build for production:
+
+    ```bash
+    npm run build
+    ```
+
+5. Preview the production build:
+
+    ```bash
+    npm run preview
+    ```
+
+### Backend Setup
+
+1. Navigate to the server directory:
+
+    ```bash
+    cd ../server
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the server:
+
+    ```bash
+    node index.js
+    ```
+
+## Deployment
+
+- Build the frontend and serve the static files using a server like Express or deploy the frontend to a static hosting service (e.g., Vercel, Netlify).
+- Ensure the backend is running on a suitable environment (e.g., Heroku, AWS).
+
+## Features
+
+- Responsive design
+- Contact form with email functionality
+- Smooth animations using Framer Motion
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Nodemailer
+- Express
+
+
 Install dependencies:
 
 npm install
@@ -102,7 +174,8 @@ Navigate to the server directory and start the Express server:
 
 
 cd server
-node server.js
+node index.mjs
+
 Deployment
 The project is deployed on Render.com. For detailed instructions on how to deploy, refer to the Render.com documentation.
 
@@ -121,11 +194,14 @@ Node.js: Documentation
 Express.js: Documentation
 Axios: Documentation
 Nodemailer: Documentation
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Contributing
+
+Feel free to open issues or submit pull requests for any improvements.
+
+## License
+
+This project is licensed under the MIT License.
 
 Currently, two official plugins are available:
 
