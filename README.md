@@ -78,6 +78,8 @@ Make sure you have the following installed on your local machine:
 ### Installation
 
 1. Clone the repository:
+git clone https://github.com/your-username/corporate-website.git
+cd corporate-website
 
 ### Frontend Setup
 
@@ -150,53 +152,43 @@ Make sure you have the following installed on your local machine:
 - Nodemailer
 - Express
 
-## Contributing
-
-Feel free to open issues or submit pull requests for any improvements.
-
-## License
-
-This project is licensed under the MIT License.
-This should now di
 
 ```
-git clone https://github.com/your-username/corporate-website.git
-cd corporate-website
-
-
-
-Install dependencies:
+```
+## Install dependencies:
 
 npm install
-Running the Development Server
-Start the Vite development server:
 
+### Running the Development Server
+## Start the Vite development server:
 npm run dev
 The application will be available at http://localhost:5000.
 
-Building for Production
-Build the application for production:
+### Building for Production
 
+## Build the application for production:
 
 npm run build
-Running the Backend Server
-Navigate to the server directory and start the Express server:
 
+### Running the Backend Server
+
+## Navigate to the server directory and start the Express server:
 
 cd server
 node index.mjs
 
-Deployment
+## Deployment
 The project is deployed on Render.com. For detailed instructions on how to deploy, refer to the Render.com documentation.
 
-Usage
-Sending Emails
+### Usage
+## Sending Emails
 The project uses Nodemailer to send emails. Configure the email settings in the server/config file.
 
-API Requests
+## API Requests
 API requests are made using Axios. Configure the base URL and endpoints in the relevant components.
-
-Technologies Used
+```
+```
+## Technologies Used
 React.js: Documentation
 Vite: Documentation
 Tailwind CSS: Documentation
@@ -204,11 +196,14 @@ Node.js: Documentation
 Express.js: Documentation
 Axios: Documentation
 Nodemailer: Documentation
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+```
+```
+## Contributing
+Feel free to open issues or submit pull requests for any improvements.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+This project is licensed under the MIT License.
+```
 
 Currently, two official plugins are available:
 
