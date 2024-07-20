@@ -146,30 +146,29 @@ cd corporate-website
 - Contact form with email functionality
 - Smooth animations using Framer Motion
 
-
 1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Running the Development Server
-## Start the Vite development server:
+## Running the Development Server
+2. Start the Vite development server:
 ```bash
 npm run dev
 ```
 - The application will be available at http://localhost:5000.
 
-3. Building for Production
+## Building for Production
 
-## Build the application for production:
+3. Build the application for production:
 ```bash
 npm run build
 ```
 
-4. Running the Backend Server
+## Running the Backend Server
 
-## Navigate to the server directory and start the Express server:
+4. Navigate to the server directory and start the Express server:
 ```bash
 cd server
 node index.mjs
