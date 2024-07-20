@@ -4,11 +4,11 @@ import './Whatwedo.css';
 import { Link } from 'react-router-dom';
 
 const cardsData = [
-  { image: '/7.jpeg', caption: 'Project 1' },
-  { image: '/8.jpeg', caption: 'Project 2' },
-  { image: '/9.jpeg', caption: 'Project 3' },
-  { image: '/10.jpeg', caption: 'Project 4' },
-  { image: '/11.jpeg', caption: 'Project 5' },
+  { image: '/7.webp', caption: 'Project 1' },
+  { image: '/8.webp', caption: 'Project 2' },
+  { image: '/9.webp', caption: 'Project 3' },
+  { image: '/10.webp', caption: 'Project 4' },
+  { image: '/11.webp', caption: 'Project 5' },
   // { image: '/6.jpg', caption: 'Caption 6' },
   // { image: '/LATrees.jpg', caption: 'Caption 7' },
   // { image: 'src/assets/LATrees.jpg', caption: 'Caption 8' },

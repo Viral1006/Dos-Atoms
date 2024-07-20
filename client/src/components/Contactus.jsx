@@ -34,7 +34,7 @@ function Contactus(){
     <div className="relative h-screen bg-[#f1f1ea] grainy overflow-x-hidden overflow-y-hidden">
       <div className="relative h-[95vh] w-[100vw] py-5 px-7">
         <div className="relative h-full w-full rounded-2xl overflow-hidden">
-          <img src='/18.jpg' className='h-full w-full object-cover ' alt='Contact Background' />
+          <img src='/18.webp' className='h-full w-full object-cover ' alt='Contact Background' />
           
           <div className="absolute top-2 left-8 w-full h-[200px] flex flex-col justify-center">
         <h1 className="text-[120px] font-regular text-[#f1f1ea] leading-none">CONTACT US</h1>

@@ -9,31 +9,31 @@ const OurteamMobile = () => {
               name: "JOSEPH RAY",
               designation: "Software Engineer",
               details: "Joseph is a highly skilled software engineer with 5 years of experience in full-stack development.",
-              image: "/12.jpeg"
+              image: "/12.webp"
             },
             {
               name: "MICHAEL WALKER",
               designation: "Project Manager",
               details: "Michael has been managing projects efficiently for over 10 years, ensuring timely delivery and client satisfaction.",
-              image: "/16.jpeg"
+              image: "/16.webp"
             },
             {
               name: "DIANA CAMPBELL",
               designation: "UX Designer",
               details: "Diana is a creative UX designer with a knack for creating user-friendly interfaces.",
-              image: "/14.jpeg"
+              image: "/14.webp"
             },
             {
               name: "LORI HOUSTEN",
               designation: "Data Scientist",
               details: "Lori specializes in data analysis and machine learning, providing valuable insights from complex data.",
-              image: "/15.jpeg"
+              image: "/15.webp"
             },
             {
               name: "TERESA FULLER",
               designation: "Marketing Specialist",
               details: "Teresa is a marketing guru with innovative strategies that drive brand success.",
-              image: "/13.jpeg"
+              image: "/13.webp"
             }
 
     ];
