@@ -42,7 +42,7 @@ Explore the project [here](https://dos-atoms-1.onrender.com/) to understand it b
 ## Project Structure
 
 The project is organized as follows:
-
+```
 corporate-web/
 ├── frontend/
 │ ├── index.html
@@ -62,7 +62,7 @@ corporate-web/
 │ ├── package.json
 │ ├── ...
 ├── README.md
-
+```
 
 
 ## Getting Started
