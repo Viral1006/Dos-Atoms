@@ -184,8 +184,7 @@ node index.mjs
 
 ## API Requests
 - API requests are made using Axios. Configure the base URL and endpoints in the relevant components.
-```
-```
+
 ## Technologies Used
 React.js: Documentation
 Vite: Documentation
