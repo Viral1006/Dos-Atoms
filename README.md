@@ -1,6 +1,6 @@
-# Corporate Website
+# Dos-Atoms
 
-This repository contains the source code for a corporate website developed using a modern web stack. The project is deployed on Render.com.
+This repository contains the source code for a corporate website(Dos Atoms) developed using a modern web stack. The project is deployed on Render.com.
 
 ## Features
 
@@ -42,6 +42,29 @@ Explore the project [here](https://dos-atoms-1.onrender.com/) to understand it b
 ## Project Structure
 
 The project is organized as follows:
+
+corporate-web/
+├── frontend/
+│ ├── index.html
+│ ├── public/
+│ │ ├── ...
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Contactus.jsx
+│ │ │ ├── ...
+│ │ ├── App.jsx
+│ │ ├── index.js
+│ │ ├── ...
+│ ├── package.json
+│ ├── ...
+├── server/
+│ ├── index.mjs
+│ ├── package.json
+│ ├── ...
+├── README.md
+
+
+
 ## Getting Started
 
 ### Prerequisites
