@@ -146,17 +146,7 @@ cd corporate-website
 - Contact form with email functionality
 - Smooth animations using Framer Motion
 
-## Technologies Used
 
-- React
-- Vite
-- Tailwind CSS
-- Nodemailer
-- Express
-
-
-```
-```
 1. Install dependencies:
 
 ```bash
@@ -204,8 +194,7 @@ Node.js: Documentation
 Express.js: Documentation
 Axios: Documentation
 Nodemailer: Documentation
-```
-```
+
 ## Contributing
 Feel free to open issues or submit pull requests for any improvements.
 
