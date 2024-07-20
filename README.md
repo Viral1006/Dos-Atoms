@@ -78,8 +78,10 @@ Make sure you have the following installed on your local machine:
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/corporate-website.git
+```bash
+git clone https://github.com/Viral1006/Dos-Atoms.git
 cd corporate-website
+```
 
 ### Frontend Setup
 
@@ -155,37 +157,43 @@ cd corporate-website
 
 ```
 ```
-## Install dependencies:
+1. Install dependencies:
 
+```bash
 npm install
+```
 
-### Running the Development Server
+2. Running the Development Server
 ## Start the Vite development server:
+```bash
 npm run dev
-The application will be available at http://localhost:5000.
+```
+- The application will be available at http://localhost:5000.
 
-### Building for Production
+3. Building for Production
 
 ## Build the application for production:
-
+```bash
 npm run build
+```
 
-### Running the Backend Server
+4. Running the Backend Server
 
 ## Navigate to the server directory and start the Express server:
-
+```bash
 cd server
 node index.mjs
+```
 
-## Deployment
-The project is deployed on Render.com. For detailed instructions on how to deploy, refer to the Render.com documentation.
+4. Deployment
+- The project is deployed on Render.com. For detailed instructions on how to deploy, refer to the Render.com documentation.(or Heroku, vercel, aws)
 
 ### Usage
 ## Sending Emails
-The project uses Nodemailer to send emails. Configure the email settings in the server/config file.
+- The project uses Nodemailer to send emails. Configure the email settings in the server/config file.
 
 ## API Requests
-API requests are made using Axios. Configure the base URL and endpoints in the relevant components.
+- API requests are made using Axios. Configure the base URL and endpoints in the relevant components.
 ```
 ```
 ## Technologies Used
